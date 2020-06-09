@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sense8</title>
+</head>
+<!--aca estoy instertando uel estilo del menu de la w3-->
+<style>
+    /* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+</style>
+<body>
+  
+  <div id="cabecera" style="width: 100%; height: 100px; background-color: yellowgreen;">
+    <h1 style="text-align:center">Titulo</h1>
+  </div>
+
+  <div id="menu" style="width: 100%; height: 50px; background-color: #333;">
+    <div style="width: 50%; height: 90%;margin-left:auto;margin-right: auto; display: block;">
+     <!-- insertando menu de la w3school -->
+     <!-- Top navigation -->
+        <div class="topnav">
+
+     <!-- Centered link -->
+        <div class="topnav-centered">
+            <a href="#home" class="active">Home</a>
+        </div>
+  
+     <!-- Left-aligned links (default) -->
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+  
+     <!-- Right-aligned links -->
+        <div class="topnav-right">
+            <a href="#search">Search</a>
+            <a href="#about">About</a>
+        </div>
+  
+        </div>
+    </div>
+  </div>
+  
+  <div id="cuerpo" style="width: 100%; height: 1200px; margin-top: 50px;background-image: url(Imagenes/sense.jpeg);background-size: 80%;background-repeat: repeat-y;">
+
+    <!--inicio cuerpo-->
+    <div style="width:80%; height:100%; float:left; margin-left: auto;margin-right: auto; border-right:double;">
+     
+      <!--en 2-->
+      <div style="width: 80%; height: 300px;margin-left:auto;
+      margin-right: auto;">
+        <!--video-->
+        <div style="width: 50%; height: 100%; background-color: rosybrown; float:left;">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/gp2JuY5eAVo"
+            frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style="border:5px solid black"></iframe>
+        </div>
+        <!--foto-->
+        <div style="width: 50%; height: 100%; float:right;background-color: transparent;">
+            <div style="width: 100%; height: 50%;">
+                <img src="Imagenes/sense8.jpeg" style="width: 30%; height: 100%; margin-left: auto; margin-right: auto; display: block;">
+            </div>
+            <div>
+         <!--resumen-->
+                <p style="text-align:center; margin-left: 16px; margin-right: 16px;border:double;opacity: 0.5px;">Sense8 cuenta la historia de ocho desconocidos (Will, Riley, Capheus, Sun, Lito, Kala, Wolfgang y Nomi) de diferentes culturas, razas y orientaciones sexuales que, después de experimentar la trágica muerte de una mujer a través de visiones o sueños, se encuentran mental y emocionalmente conectados. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptatem tempora voluptatibus
+                </p>
+            </div>
+        
+        </div>
+      </div>
+      
+      <!--en 3-->
+      <div style="width: 80%; height: 400px; background-color: orange;margin-left:auto;margin-right: auto;margin-top: 50px;">
+        <div style="height: 100%; width: 33%; background-color: black;float: left;"></div>
+        <div style="height: 100%; width: 34%; background-color: red; float: left;">
+            <img src="Imagenes/sense8.jpeg" style="width: 100%; height: 100%; margin-left: auto; margin-right: auto; display: block;">
+        </div>
+        <div style="height: 100%; width: 33%; background-color: black; float: left;"></div>
+      </div>
+
+      <!--texto-->
+      <div style="width: 80%; height: 400px; opacity: 0.5px; margin-left:auto; margin-right: auto; margin-top: 50px;border: double;">
+        <p style="text-align: center; font-size: 24px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptatibus corporis voluptatem rerum consequuntur ratione dolorum hic excepturi fuga, commodi optio, cum quas modi, praesentium mollitia inventore atque culpa voluptas!
+        Laborum ipsam voluptatem error quis in, quisquam, velit distinctio harum ipsum saepe cupiditate consequatur nobis fugit laudantium odit placeat ratione corporis voluptas perspiciatis! Recusandae ab explicabo omnis esse, iste nesciunt?
+        Deleniti cupiditate, cumque voluptas ea esse sint reprehenderit eaque vel ducimus earum enim ipsa officiis eius blanditiis? Dicta, vero. Ex ducimus ut accusantium recusandae ipsa dolor impedit suscipit esse nisi?
+        Fugit vitae quo maxime! Fugit ipsam a aliquam illum, iure harum ipsa in tempore exercitationem reiciendis, laudantium explicabo. Vitae ex, modi dolorum sequi veritatis necessitatibus. Ea nemo architecto quaerat dolore!
+        </p>
+      </div>
+    </div>
+    <!--inicio entradas-->
+    <div style="widows: 17%; height:100%;float:right;">
+
+      <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en series chotas</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Netflix</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Cuevana</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en PopCorn.sh</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Series pepito</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en La Concha de tu madre!</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en series chotas</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Netflix</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Cuevana</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en PopCorn.sh</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Series pepito</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+       <a href="">Mirala en La Concha de tu madre!</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en series chotas</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Netflix</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Cuevana</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en PopCorn.sh</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en Series pepito</a>
+    </section>
+    <br>
+    <section style="text-align: center;margin-top: 10px;border: 1px solid black; height: 40px;margin-top: 5px; display:block;">
+        <a href="">Mirala en La Concha de tu madre!</a>
+    </section>
+  </div>
+  </div>
+  
+ 
+
+</body>
+</html>
