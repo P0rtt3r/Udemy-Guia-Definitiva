@@ -97,7 +97,7 @@
 }
 #cuerpo #cuerpo2 {
     width: 80%;
-    height: 300px;
+    height: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -116,4 +116,107 @@
     width: 50%;
     height: 100%;
     float:right;
+}
+
+#cuerpo4 p{
+    border: double;
+    background-color: white;
+    margin-left: 15px;
+    opacity: 0.8;
+}
+
+#cuerpo2 #cuerpo4 img{
+    width: 30%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cuepo4 p{
+    text-align: center;
+    margin-right:auto;
+    margin-left: 16px;
+    border:double;
+    background-color: white;
+    opacity: 0.5;
+}
+
+#cuerpo1 #cuerpo5{
+    width: 80%;
+    height: 400px;
+    background-color: orange;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#cuerpo5 #cuerpo51{
+    height: 100%;
+    width: 33%;
+    background-color: black;
+    float: left;
+}
+
+#cuerpo53 button{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+}
+
+#cuerpo5 #cuerpo52{
+    height: 100%;
+    width: 34%;
+    background-color: red;
+    float: left;
+}
+
+#cuerpo52 img{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cuerpo5 #cuerpo53{
+    height: 100%;
+    width: 33%;
+    background-color: black;
+    float: left;
+}
+
+#cuerpo #cuerpo6{
+    width: 80%;
+    height: 300px;
+    opacity: 0.5px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: double;
+    background-color: white;
+    opacity: 0.7;
+}
+
+#cuerpo6 p{
+    text-align: center;
+    font-size: 24px;
+}
+
+#barraLateral{
+    width: 17%;
+    height:100%;
+    float:right;
+}
+
+#barraLateral section {
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 40px;
+    margin-top: 5px;
+    display:block;
 }
