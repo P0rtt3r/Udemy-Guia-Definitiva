@@ -27,66 +27,87 @@
     </div>
 
     
+    <h2>Hoverable Dropdown</h2>
     <div class="dropdown">
-      <h2>Hoverable Dropdown</h2>
       <span>Mouse over me</span>
+
       <div class="dropdown-content">
         <p>Hello World!</p>
         <p>este es mi</p>
         <p>menu desplegable</p>
-        <p>soy re pro vieron ahre</p>
+        <p>html y css hacker?</p>
       </div>
     </div>
-    <br>
+
     <br>
 
     <!-- galeria de fotos -->
-    <div class="gallery">
-        <a target="_blank" href="img_5terre.jpg">
-          <img src="Imagenes/Fsociety.jpg" alt="Cinque Terre" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-      
+
+    <h2>Responsive Image Gallery</h2>
+    <p>(i'm going to use just one image and description for save time)</p>
+
+    <div class="responsive">
       <div class="gallery">
         <a target="_blank" href="img_forest.jpg">
-          <img src="Imagenes/Fsociety.jpg" alt="Forest" width="600" height="400">
+          <img src="../Imagenes/Fsociety.jpg" alt="Forest" width="600" height="400">
         </a>
-        <div class="desc">Add a description of the image here</div>
+        <div class="desc">Fsociety is a anti-corporate hacktivist organization from Mr Robot series</div>
       </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-          <img src="Imagenes/Fsociety.jpg" alt="Northern Lights" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-      
-      <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
-          <img src="Imagenes/Fsociety.jpg" alt="Mountains" width="600" height="400">
-        </a>
-        <div class="desc">Add a description of the image here</div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="../Imagenes/Fsociety.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Fsociety is a anti-corporate hacktivist organization from Mr Robot series</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="../Imagenes/Fsociety.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Fsociety is a anti-corporate hacktivist organization from Mr Robot series</div>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+          <img src="../Imagenes/Fsociety.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Fsociety is a anti-corporate hacktivist organization from Mr Robot series</div>
+      </div>
+    </div>
+
+    <hr>
     <hr>
 
+
     <!-- formulario -->
-    <form>
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname"><br><br>
-      <input type="submit" value="Submit">
-    </form> 
+    <h2>Form</h2>
+    <div id="container">
+      <form>
+        
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <br>
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Argentina">Argentina</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Uruguay">Uruguay</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
   </body>
 </html>
