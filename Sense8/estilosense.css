@@ -57,6 +57,10 @@
         }
     }
 
+body{
+    height: auto;
+}
+
 #cabecera {
         background-color:white;
         width: 100%;
@@ -81,12 +85,12 @@
 }
 #cuerpo {
     width: 100%;
-    height: 1200px;
+    height: auto;
     margin-top: 50px;
 }
 #cuerpo #cuerpo1 {
     width:80%;
-    height:100%;
+    height:auto;
     float:left;
     margin-left: auto;
     margin-right: auto;
@@ -159,13 +163,25 @@
 }
 
 #cuerpo53 button{
-    width: 50px;
+    width: 75px;
     height: 50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 175px;
+
+    background-color: #ddd;
+    border: none;
+    color: black;
+
+    transition: 0.3s;
 }
+
+
+#cuerpo53 button:hover {
+    background-color: #3e8e41;
+    color: white;
+  }
 
 #cuerpo5 #cuerpo52{
     height: 100%;
@@ -191,11 +207,12 @@
 
 #cuerpo #cuerpo6{
     width: 80%;
-    height: 300px;
+    height: auto;
     opacity: 0.5px;
     margin-left:auto;
     margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 80px;
     border: double;
     background-color: white;
     opacity: 0.7;
@@ -203,7 +220,7 @@
 
 #cuerpo6 p{
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 #barraLateral{
